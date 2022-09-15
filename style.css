@@ -1,0 +1,105 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h2 {
+    margin: 0px;
+    padding: 23px 0px 18px 0px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+h6 {
+    margin: 0px;
+    padding: 0px 0px 23px 0px;
+    font-size: 18px;
+    color: #000000;
+}
+
+img.aluno_foto {
+    width: 180px;
+}
+
+.quadro_alunos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 115px;
+}
+
+.alunos {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
+}
+
+.aluno_ra {
+    margin-top: 5px;
+}
+
+.botao {
+    margin: 25px 20px;
+    border: 1px #ab6d78 solid;
+    padding: 12px 25px 12px 25px;
+    border-radius: 20px;
+    background-color: #ffc0cb;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+}
+
+.menu {
+    width: 60px;
+    height: 350px;
+    background-color: #ffc0cb;
+    float: left;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 18%;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+}
+
+.icon_menu {
+    width: 47px;
+    margin: 8px;
+    padding-top: 0px;
+}
+
+.icon_menu:hover {
+    background-color: #ffc0cb;
+}
+
+.geral {
+    border: 2px #ffc0cb solid;
+    margin: 30px 50px;
+    padding-bottom: 110px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+
+body {
+    background-image: url(wallpaper1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center centers;
+}

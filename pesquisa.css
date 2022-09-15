@@ -1,0 +1,69 @@
+h3 {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+h4 {
+    margin: 20px 0px;
+    font-size: 22px;
+    color: #3E8EDE;
+}
+
+p, ul {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-right: 55px;
+    margin-left: 60px;
+}
+
+li {
+	margin-bottom: 6px;
+}
+
+.pesquisa_texto {
+    display: grid;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+}
+
+.sessao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.geral1 {
+    border: 2px #ffc0cb solid;
+    margin: 30px 50px;
+    padding-bottom: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 20%);
+    background-color: white;
+}
+
+.botoes {
+    margin-top: 25px;
+    margin-left: 40px;
+    width: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quadro {
+    width: 70%;
+    height: 250px;
+    border: 2px solid #ffc0cb;
+    border-radius: 8px;
+    float: left;
+    padding: left;
+    margin: 40px;
+    overflow: scroll;
+
+}

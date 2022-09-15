@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pesquisa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html"><img class="icon_menu" src="icon_casa.png"></a>
+        <a href="pesquisa.html"><img class="icon_menu" src="icon_lupa.png"></a>
+        <a href="prova.html"><img class="icon_menu" src="icon_formulario.png"></a>
+    </div>
+    <div class="geral1">
+        <div class="intro">
+            <h2>UNIPAR - Toledo</h2>
+            <h6>Análise e Desenvolvimento de Sistemas</h6>
+        </div>
+        <div class="texto">
+            <h3>FDD (Feature Driven Development ou Desenvolvimento Orientado a Recursos)</h3>
+            <p>Foi criado por Jeff de Luca em 1997, enquanto estava desenvolvendo um software em Singapura. É uma metodologia ágil baseada no estudo de problemas e no entendimento dos processos interativos para propor soluções, entregando um software funcional em tempo produtivo.
+                É conhecido em projetos em grupos com vários membros, não funcionando muito bem com grupos pequenos. Sendo bem estruturado desde o começo, mas também tendo muita documentação escrita. E consegue funcionar com rapidez, porém depende de decisões dos programadores-chefe.
+                </p>
+        </div>
+        <div class="botoes">
+            
+        <input type="submit" value="Processos básicos" class="botao" onclick="mostrarPesquisaTexto1()"></input>
+        <input type="submit" value="Práticas utilizadas" class="botao" onclick="mostrarPesquisaTexto2()"></input>
+        <input type="submit" value="Membros da equipe" class="botao" onclick="mostrarPesquisaTexto3()"></input>
+
+        
+        </div>
+        <div class="quadro">
+            <div style="display:none;" id="texto1">
+            
+            <h3>Processos básicos</h3>
+            <ul> 
+                <li>Desenvolvimento do modelo geral - analisar e estudar o sistema para fazer o esboço do modelo do projeto.</li>
+                <li>Construir uma lista de recursos - criar uma lista sobre o sistema para identificar os recursos importantes ao cliente.</li>
+                <li>Planejar por recurso - organiza a ordem de desenvolvimento, onde são designadas as tarefas para cada grupo, assim separando os integrantes encarregados de cada time.</li>
+                <li>Projetar por recurso - determinar os recursos que serão projetados e construídos para serem desenvolvidos.</li>
+                <li>Construir por recurso - o código desenvolvido começa a ser implementado no sistema para serem testados.</li>
+            </ul>  
+            </div>
+            
+            <div style="display:none;" id="texto2">
+            
+            <h3> Práticas utilizadas</h3>
+            <ul> 
+                <li>Modelagem dos objetos do domínio - descobrir qual função adicionar a cada recurso.</li>
+                <li>Desenvolvimento por recurso - dividir uma função em recursos menores e gerenciáveis.</li>
+                <li>Propriedade individual da classe (ou código) - cada classe ou grupo de código é enviado a um único proprietário.</li>
+                <li>Equipes de recursos - todos na equipe de recursos contribuem para as decisões de design e de implementação.</li>
+                <li>Inspeções - as equipes de FDD realizam inspeções para detectar defeitos e garantir a melhor qualidade.</li>
+                <li>Gerenciamento da configuração - prática que envolve a identificação do código-fonte de todos os recursos e a documentação das alterações.</li>
+                <li>Cronograma regular do projeto - uma prática recomendada para que a equipe sempre tenha um sistema atualizado a mostrar ao cliente.</li>
+                <li>Relatórios do progresso - os gerentes de projeto devem fornecer relatórios frequentes sobre o progresso do trabalho concluído.</li>
+            </ul> 
+                
+            </div>
+            
+            <div style="display:none;" id="texto3">
+            
+                <h3>Membros da equipe</h3>
+                <ul> 
+                    <li>Gerenciador de projeto - supervisiona todo o projeto.</li>
+                    <li>Arquiteto-chefe - responsável pelo projeto e modelagem do sistema em geral.</li>
+                    <li>Gerente de desenvolvimento - lidera e orienta a equipe de desenvolvimento.</li>
+                    <li>Programador-chefe - auxilia na análise e no design.</li>
+                    <li>Proprietário da classe - projetar, codificar, testar e documentar recursos.</li>
+                    <li>Especialista em domínios - quem entende o problema que o cliente quer resolver.</li>
+                </ul>  
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+<footer>
+
+    <script>
+            function mostrarPesquisaTexto1() {
+              var texto1 = document.getElementById("texto1");
+              texto1.style.display = "block";
+            
+              var texto1 = document.getElementById("texto2");
+              texto2.style.display = "none";
+                
+              var texto1 = document.getElementById("texto3");
+              texto3.style.display = "none";
+            
+            }
+    </script>
+    
+    <script>
+            function mostrarPesquisaTexto2() {
+              var texto1 = document.getElementById("texto1");
+              texto1.style.display = "none";
+            
+              var texto1 = document.getElementById("texto2");
+              texto2.style.display = "block";
+                
+              var texto1 = document.getElementById("texto3");
+              texto3.style.display = "none";
+            
+            }
+    </script>
+    
+    <script>
+            function mostrarPesquisaTexto3() {
+              var texto1 = document.getElementById("texto1");
+              texto1.style.display = "none";
+            
+              var texto1 = document.getElementById("texto2");
+              texto2.style.display = "none";
+                
+              var texto1 = document.getElementById("texto3");
+              texto3.style.display = "block";
+            
+            }
+    </script>
+
+
+</footer>
+</html>
